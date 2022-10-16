@@ -29,7 +29,7 @@ class RequestProcessorController {
             @RequestParam(name = "productCategory") String category)
             throws JsonProcessingException, UnsupportedEncodingException {
 
-        List<Product> productDeals = new ArrayList<>();
+        List<Product> productDeals = new ArrayList<Product>();
 
         productDeals = productService.getDealByProductNameOrUserQueryName(name);
 
