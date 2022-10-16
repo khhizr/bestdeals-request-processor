@@ -1,15 +1,15 @@
 package com.bestdeals.requestprocessor.config;
 
-import com.bestdeals.commons.services.HelloWorldService;
+// import com.bestdeals.commons.services.HelloWorldService;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+// import org.springframework.context.annotation.Bean;
+// import org.springframework.context.annotation.Configuration;
 
-@Configuration
-public class BestdealsRequestProcessorConfiguration {
+// @Configuration
+// public class BestdealsRequestProcessorConfiguration {
 
-    @Bean
-    public HelloWorldService helloWorldService() {
-        return new HelloWorldService();
-    }
-}
+//     @Bean
+//     public HelloWorldService helloWorldService() {
+//         return new HelloWorldService();
+//     }
+// }
