@@ -15,8 +15,6 @@
 	</parent>
 	<modules>
 		<module>bestdeals-request-processor</module>
-		<module>bestdeals-gateway</module>
-		<module>bestdeals-eureka</module>
 	</modules>
 	<dependencies>
 		<dependency>
