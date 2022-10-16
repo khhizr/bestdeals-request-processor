@@ -50,7 +50,7 @@ public class ScrapperService {
     public List<Product> sendRequestToScrapper(String name, String category)
             throws JsonProcessingException, UnsupportedEncodingException {
 
-        List<Product> productDeals = new ArrayList<>();
+        List<Product> productDeals = new ArrayList<Product>();
 
         Map<String, String> params = new HashMap<String, String>();
         params.put("productName", name);
@@ -82,7 +82,7 @@ public class ScrapperService {
 
     @Scheduled(cron = "0 00 01 * * *")
     public void scheduleScrapping() throws UnsupportedEncodingException, JsonProcessingException {
-        List<String> productToUpdate = new ArrayList<>();
+        List<String> productToUpdate = new ArrayList<String>();
 
         productToUpdate = productService.getAllDeals();
 
